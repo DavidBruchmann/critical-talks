@@ -1,0 +1,105 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+/*
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+*/
+.heroBanner {
+  position: relative;
+  padding: 8rem 0;
+  text-align: center;
+  overflow: hidden;
+  height: calc(100vh - 60px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* Layout constraints */
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   /* Unified high-contrast documentary feel
+  filter: grayscale(100%);
+  */
+  filter:  multiply(200%) grayscale(100%);
+  /* CRITICAL: Explicitly ensure no transition states exist on the background update */
+  transition: none !important;
+}
+
+.heroOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;/*
+  */
+  background: linear-gradient(180deg, rgba(11, 15, 25,0.2) 0%, rgba(11, 15, 25, 0.9) 100%);
+  z-index: 1;
+}
+
+.heroContent {
+  position: relative;
+  z-index: 2;
+  max-width: 800px;
+  padding: 1rem 2rem 2rem 2rem;
+  background: rgba(0,0,0,0.5);
+}
+
+.heroTitle {
+  color: #ffffff !important;
+  font-size: 3rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.heroSubtitle {
+  color: #e2e8f0 !important;
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-bottom: 3rem;
+  line-height: 1.4;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttons a,
+.buttons a:visited{
+  background: #000;
+  color: #ddd;
+}
+.buttons:hover {
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .heroTitle {
+    font-size: 2.5rem;
+  }
+  .heroSubtitle {
+    font-size: 1.15rem;
+  }
+}
