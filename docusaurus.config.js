@@ -17,8 +17,8 @@ const config = {
   projectName: 'critical-talks', // Usually your repo name.
   organizationName: 'DavidBruchmann', // Usually your GitHub org/user name.
   trailingSlash: false,
-  tagline: 'Dark Patterns of Systemic Control: Internal and External Imperialism',
   favicon: 'img/logo.svg',
+  tagline: 'Dark Patterns of Systemic Control: Internal and External Imperialism',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
