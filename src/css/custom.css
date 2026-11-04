@@ -35,3 +35,11 @@
     scroll-behavior: smooth;
   }
 }
+
+@layer docusaurus.infima {
+  @media screen and (max-width: 996px) {
+    .navbar__item {
+      display: block;
+    }
+  }
+}
