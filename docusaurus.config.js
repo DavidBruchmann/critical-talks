@@ -12,6 +12,11 @@ const path = require('path');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Critical Talks',
+  url: 'https://davidbruchmann.github.io',
+  baseUrl: '/critical-talks/',
+  projectName: 'critical-talks', // Usually your repo name.
+  organizationName: 'DavidBruchmann', // Usually your GitHub org/user name.
+  trailingSlash: false,
   tagline: 'Dark Patterns of Systemic Control: Internal and External Imperialism',
   favicon: 'img/logo.svg',
 
@@ -21,15 +26,11 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: 'https://davidbruchmann.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/critical-talks/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'David Bruchmann', // Usually your GitHub org/user name.
-  projectName: 'critical-talks', // Usually your repo name.
 
   onBrokenLinks: 'warn',
   baseUrlIssueBanner: true,
