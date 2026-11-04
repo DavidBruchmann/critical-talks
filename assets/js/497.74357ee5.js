@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcritical_talks=self.webpackChunkcritical_talks||[]).push([["497"],{3192(c,e,t){t.d(e,{createArchitectureServices:()=>a.S});var a=t(4549);t(184)}}]);

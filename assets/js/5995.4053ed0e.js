@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcritical_talks=self.webpackChunkcritical_talks||[]).push([["5995"],{4678(e,c,a){a.d(c,{createPieServices:()=>s.f});var s=a(8701);a(184)}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcritical_talks=self.webpackChunkcritical_talks||[]).push([["8304"],{6883(c,e,a){a.d(e,{createInfoServices:()=>s.v});var s=a(6744);a(184)}}]);

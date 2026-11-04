@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcritical_talks=self.webpackChunkcritical_talks||[]).push([["5743"],{2194(e,a,c){c.d(a,{createTreemapServices:()=>s.d});var s=c(1048);c(184)}}]);

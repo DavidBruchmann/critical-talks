@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcritical_talks=self.webpackChunkcritical_talks||[]).push([["4536"],{9115(a,c,e){e.d(c,{createGitGraphServices:()=>s.b});var s=e(7204);e(184)}}]);
